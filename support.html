@@ -1,59 +1,69 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Soothe 지원 안내</title>
-  <meta name="description" content="Soothe 지원 안내 및 FAQ">
+  <title>Soothe Support</title>
+  <meta name="description" content="Soothe support, contact, and FAQ.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="support">
   <main class="shell">
     <section class="hero">
-      <span class="tag">Support</span>
-      <h1>지원 안내</h1>
-      <p class="lead">문제 상황을 빠르게 해결할 수 있도록 필요한 정보와 자주 묻는 질문을 정리했습니다.</p>
+      <div class="utility">
+        <label for="languageSelect" data-i18n="ui.language">Language</label>
+        <select id="languageSelect" class="lang-select" aria-label="Language selector">
+          <option value="en">English</option>
+          <option value="ko">한국어</option>
+          <option value="ja">日本語</option>
+          <option value="zh">中文</option>
+        </select>
+      </div>
+      <span class="tag" data-i18n="tag">Support</span>
+      <h1 data-i18n="hero.title">Support</h1>
+      <p class="lead" data-i18n="hero.lead">Find what to include when reporting an issue and check common questions.</p>
       <nav class="nav">
-        <a class="pill" href="index.html">메인 페이지</a>
-        <a class="pill" href="privacy.html">개인정보처리방침</a>
+        <a class="pill" href="index.html" data-i18n="nav.home">Home</a>
+        <a class="pill" href="privacy.html" data-i18n="nav.privacy">Privacy Policy</a>
       </nav>
 
       <div class="split">
         <section class="section">
-          <h2>문의 시 포함 정보</h2>
+          <h2 data-i18n="include.title">Include in your message</h2>
           <ul>
-            <li>앱 버전</li>
-            <li>기기 모델 / iOS 버전</li>
-            <li>문제 발생 시각</li>
-            <li>재현 단계</li>
-            <li>스크린샷 (가능하면)</li>
+            <li data-i18n="include.item1">App version</li>
+            <li data-i18n="include.item2">Device model / iOS version</li>
+            <li data-i18n="include.item3">Time when issue happened</li>
+            <li data-i18n="include.item4">Steps to reproduce</li>
+            <li data-i18n="include.item5">Screenshot if possible</li>
           </ul>
         </section>
 
         <section class="section">
-          <h2>문의 채널</h2>
+          <h2 data-i18n="contact.title">Contact channel</h2>
           <ul>
-            <li><a href="https://github.com/devlos0322/Soothe/issues">GitHub Issues</a></li>
+            <li><a href="mailto:devlos0322@gmail.com">devlos0322@gmail.com</a></li>
           </ul>
         </section>
       </div>
 
       <section class="section">
-        <h2>자주 묻는 질문</h2>
-        <h3 class="accent-mint">로그인 없이도 사용할 수 있나요?</h3>
-        <p>네. 로컬 기능은 로그인 없이 사용할 수 있고, Google 연동은 선택 기능입니다.</p>
+        <h2 data-i18n="faq.title">FAQ</h2>
+        <h3 class="accent-mint" data-i18n="faq.q1">Can I use it without login?</h3>
+        <p data-i18n="faq.a1">Yes. Local features work without login, and Google integration is optional.</p>
 
-        <h3 class="accent-mint">백업은 어디에 저장되나요?</h3>
-        <p>Google Drive 연동 시 앱 전용 저장소(appDataFolder)에 백업 파일이 저장됩니다.</p>
+        <h3 class="accent-mint" data-i18n="faq.q2">Where are backups stored?</h3>
+        <p data-i18n="faq.a2">With Google Drive integration, backups are stored in appDataFolder.</p>
 
-        <h3 class="accent-mint">캘린더 동기화는 자동인가요?</h3>
-        <p>사용자 동작에 따라 이벤트가 생성/삭제되며, 자동 재배치/자동 완화는 수행하지 않습니다.</p>
+        <h3 class="accent-mint" data-i18n="faq.q3">Is calendar sync automatic?</h3>
+        <p data-i18n="faq.a3">Events are created or deleted based on your actions. No automatic rearrangement is performed.</p>
       </section>
     </section>
-    <p class="footer">Soothe Web Docs</p>
+    <p class="footer" data-i18n="footer">Soothe Web Docs</p>
   </main>
+  <script src="i18n.js"></script>
 </body>
 </html>

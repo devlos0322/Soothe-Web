@@ -38,6 +38,29 @@ body {
   padding: 2rem;
 }
 
+.utility {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 0.9rem;
+}
+
+.utility label {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.lang-select {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--ink);
+  padding: 0.35rem 0.56rem;
+  font-size: 0.9rem;
+}
+
 .tag {
   display: inline-flex;
   gap: 0.4rem;
