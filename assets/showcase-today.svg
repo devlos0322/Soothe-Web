@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="2280" viewBox="0 0 1080 2280" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1080" y2="2280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF4F2"/>
+      <stop offset="1" stop-color="#FAF8F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="2280" fill="url(#bg)"/>
+  <rect width="1080" height="280" fill="#79AFA6"/>
+  <text x="540" y="165" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="64" fill="#F3FBFA" font-weight="700">Today</text>
+  <rect x="36" y="326" width="1008" height="220" rx="36" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <rect x="60" y="360" width="60" height="40" rx="12" fill="#5DAFD6"/>
+  <rect x="130" y="360" width="60" height="40" rx="12" fill="#E891A7"/>
+  <rect x="200" y="360" width="60" height="40" rx="12" fill="#8EA7D8"/>
+  <text x="64" y="470" font-family="Noto Sans, sans-serif" font-size="52" fill="#26353C">Starts in 5h 21m · Work</text>
+  <rect x="36" y="590" width="1008" height="640" rx="36" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="80" y="680" font-family="Noto Sans, sans-serif" font-size="64" font-weight="700" fill="#2F3C43">Exercise</text>
+  <text x="80" y="754" font-family="Noto Sans, sans-serif" font-size="46" fill="#7A8A95">Started: 3:34 AM</text>
+  <rect x="80" y="840" width="920" height="20" rx="10" fill="#D7ECE8"/>
+  <rect x="80" y="840" width="520" height="20" rx="10" fill="#62C4AB"/>
+  <rect x="80" y="936" width="920" height="84" rx="42" fill="#E6EEF9"/>
+  <text x="540" y="993" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="44" fill="#5E8BD7" font-weight="700">End Current Activity</text>
+  <rect x="36" y="1280" width="1008" height="740" rx="36" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="60" y="1378" font-family="Noto Sans, sans-serif" font-size="58" fill="#293840" font-weight="700">Now</text>
+  <rect x="64" y="1428" width="952" height="132" rx="28" fill="#FAFCFE" stroke="#E0E7EE"/>
+  <text x="144" y="1512" font-family="Noto Sans, sans-serif" font-size="52" fill="#2E3A41">Work</text>
+  <rect x="64" y="1582" width="952" height="132" rx="28" fill="#FAFCFE" stroke="#E0E7EE"/>
+  <text x="144" y="1666" font-family="Noto Sans, sans-serif" font-size="52" fill="#2E3A41">Focus</text>
+  <rect x="64" y="1736" width="952" height="132" rx="28" fill="#FAFCFE" stroke="#E0E7EE"/>
+  <text x="144" y="1820" font-family="Noto Sans, sans-serif" font-size="52" fill="#2E3A41">Sleep</text>
+  <rect x="80" y="2090" width="920" height="150" rx="75" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="540" y="2184" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="42" fill="#89A4CC" font-weight="700">Today · Timeline · Plans · Patterns · Settings</text>
+</svg>

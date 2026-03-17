@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="2280" viewBox="0 0 1080 2280" fill="none">
+  <rect width="1080" height="2280" fill="#F4F4F4"/>
+  <rect x="180" y="180" width="720" height="1920" rx="260" fill="#0D1216"/>
+  <rect x="230" y="246" width="620" height="1788" rx="210" fill="#DDE7E3"/>
+  <rect x="272" y="320" width="536" height="1530" rx="72" fill="#F8FBFA"/>
+  <text x="318" y="430" font-family="Noto Sans, sans-serif" font-size="74" fill="#304B5A" font-weight="700">Current Status</text>
+  <text x="540" y="580" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="88" fill="#202A33" font-weight="800">Work</text>
+  <text x="318" y="700" font-family="Noto Sans, sans-serif" font-size="72" fill="#355164">Started:</text>
+  <text x="318" y="788" font-family="Noto Sans, sans-serif" font-size="72" fill="#355164">12:23 AM</text>
+  <text x="318" y="936" font-family="Noto Sans, sans-serif" font-size="74" fill="#355164" font-weight="700">Elapsed 1m</text>
+  <rect x="316" y="1024" width="448" height="142" rx="52" fill="#2D7D8F"/>
+  <text x="540" y="1114" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="70" fill="#E5F4F8" font-weight="700">Stop Activity</text>
+  <text x="540" y="1264" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="64" fill="#2F4758" font-weight="700">Long press to stop</text>
+  <rect x="272" y="1592" width="240" height="104" rx="52" fill="#2F8BA0"/>
+  <text x="392" y="1662" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="62" fill="#F0FAFC" font-weight="700">Work</text>
+  <rect x="536" y="1592" width="272" height="104" rx="52" fill="#FFFFFF"/>
+  <text x="672" y="1662" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="62" fill="#28343B" font-weight="700">Personal</text>
+</svg>

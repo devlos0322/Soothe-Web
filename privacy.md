@@ -56,4 +56,4 @@ Soothe(이하 "앱")는 사용자 데이터의 최소 수집과 투명한 처리
 
 문의 채널:
 - 지원 페이지: `https://devlos0322.github.io/Soothe-Web/support.html`
-- GitHub Issues: `https://github.com/devlos0322/Soothe/issues`
+- Email: `devlos0322@gmail.com`

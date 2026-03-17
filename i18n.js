@@ -52,12 +52,95 @@
         ja: "処理されるデータ、利用目的、ユーザーの権利を確認できます。",
         zh: "查看处理的数据类型、用途与用户权利。"
       },
-      "repo.title": { en: "Repository", ko: "저장소", ja: "リポジトリ", zh: "代码仓库" },
-      "repo.label": {
-        en: "Product repository:",
-        ko: "프로덕트 저장소:",
-        ja: "プロダクトリポジトリ:",
-        zh: "产品仓库："
+      "usage.title": { en: "How to use Soothe", ko: "Soothe 사용 방법", ja: "Soothe の使い方", zh: "Soothe 使用方法" },
+      "usage.lead": {
+        en: "Start small, keep your rhythm, and review your day with clear evidence.",
+        ko: "작게 시작하고 리듬을 유지하며, 근거 기반 인사이트로 하루를 점검하세요.",
+        ja: "小さく始めてリズムを保ち、根拠のあるインサイトで1日を振り返りましょう。",
+        zh: "从小开始，保持节奏，并通过清晰依据复盘你的一天。"
+      },
+      "usage.step1.index": { en: "Step 1", ko: "1단계", ja: "ステップ 1", zh: "步骤 1" },
+      "usage.step1.title": {
+        en: "Set simple schedule blocks",
+        ko: "간단한 시간대 계획을 세우세요",
+        ja: "シンプルな時間ブロックを作成",
+        zh: "先设定简单的时间块"
+      },
+      "usage.step1.body": {
+        en: "Create day or week blocks first. Keep each block realistic so it is easy to follow.",
+        ko: "하루 또는 일주일 단위로 먼저 계획하고, 무리 없는 길이로 설정해 꾸준히 지키세요.",
+        ja: "まずは1日または1週間単位で計画し、無理のない長さで続けやすくしましょう。",
+        zh: "先按天或按周创建计划，保持每个时间块可执行、易坚持。"
+      },
+      "usage.step2.index": { en: "Step 2", ko: "2단계", ja: "ステップ 2", zh: "步骤 2" },
+      "usage.step2.title": {
+        en: "Record what you actually do",
+        ko: "실제 실행을 기록하세요",
+        ja: "実際の行動を記録",
+        zh: "记录你实际做了什么"
+      },
+      "usage.step2.body": {
+        en: "Use quick activity tracking during the day. Small logs are enough to build useful patterns.",
+        ko: "하루 중 짧게 기록해도 충분합니다. 작은 기록이 유의미한 패턴을 만듭니다.",
+        ja: "短い記録でも十分です。小さなログが有効なパターンにつながります。",
+        zh: "日常中用简短记录即可，小日志也能形成有价值的模式。"
+      },
+      "usage.step3.index": { en: "Step 3", ko: "3단계", ja: "ステップ 3", zh: "步骤 3" },
+      "usage.step3.title": {
+        en: "Compare plan and execution",
+        ko: "계획과 실행을 비교하세요",
+        ja: "計画と実行を比較",
+        zh: "对比计划与执行"
+      },
+      "usage.step3.body": {
+        en: "Open Timeline to check where plans matched and where time shifted.",
+        ko: "타임라인에서 계획이 맞았던 구간과 시간이 밀린 구간을 확인해보세요.",
+        ja: "タイムラインで、計画どおりだった時間帯とズレた時間帯を確認しましょう。",
+        zh: "在时间线中查看哪些时段按计划执行、哪些时段发生偏移。"
+      },
+      "usage.step4.index": { en: "Step 4", ko: "4단계", ja: "ステップ 4", zh: "步骤 4" },
+      "usage.step4.title": {
+        en: "Improve with pattern insights",
+        ko: "패턴 인사이트로 개선하세요",
+        ja: "パターンインサイトで改善",
+        zh: "用模式洞察持续优化"
+      },
+      "usage.step4.body": {
+        en: "Review Patterns to adjust your next day with calmer and more consistent routines.",
+        ko: "패턴 탭을 보고 다음 날 계획을 더 차분하고 일관되게 조정하세요.",
+        ja: "パターンタブを見て、次の日の計画をより落ち着いて一貫性ある形に調整できます。",
+        zh: "查看模式页面，帮助你把下一天安排得更稳定、更从容。"
+      },
+      "showcase.title": { en: "See Soothe in action", ko: "Soothe 화면 미리보기", ja: "Soothe 画面プレビュー", zh: "Soothe 画面预览" },
+      "showcase.lead": {
+        en: "From daily focus to weekly and monthly reflection, every screen is built to keep your rhythm clear.",
+        ko: "일상 집중부터 주간/월간 회고까지, 흐름을 명확하게 유지하도록 화면을 구성했습니다.",
+        ja: "日々の集中から週次・月次の振り返りまで、流れが見える画面構成になっています。",
+        zh: "从每日专注到周/月复盘，每个页面都围绕清晰节奏而设计。"
+      },
+      "showcase.today": {
+        en: "Today keeps active focus simple with quick start, flow status, and one-tap category access.",
+        ko: "Today 탭은 빠른 시작, 흐름 상태, 카테고리 접근을 한 화면에서 단순하게 제공합니다.",
+        ja: "Todayタブでは、クイック開始・フロー状態・カテゴリ操作を1画面でシンプルに扱えます。",
+        zh: "Today 页面将快速开始、节奏状态与分类入口整合在一个清晰视图中。"
+      },
+      "showcase.timeline": {
+        en: "Timeline compares plans and execution across day, week, and month in calendar and list views.",
+        ko: "Timeline은 하루/일주일/한달 단위로 계획과 실행을 캘린더/목록에서 비교합니다.",
+        ja: "Timelineは日・週・月単位で、計画と実行をカレンダー/リストで比較できます。",
+        zh: "Timeline 支持按天/周/月在日历与列表中对比计划与执行。"
+      },
+      "showcase.patterns": {
+        en: "Patterns turns your records into practical insight cards with evidence and next actions.",
+        ko: "Patterns는 기록을 근거 기반 인사이트 카드로 바꿔 다음 행동까지 안내합니다.",
+        ja: "Patternsは記録を根拠付きインサイトカードに変換し、次の行動まで示します。",
+        zh: "Patterns 会把记录转化为带依据的洞察卡片，并给出下一步建议。"
+      },
+      "showcase.watch": {
+        en: "Apple Watch support helps you track and stop activities quickly without breaking your flow.",
+        ko: "Apple Watch 연동으로 흐름을 끊지 않고 활동 시작/종료를 빠르게 처리할 수 있습니다.",
+        ja: "Apple Watch連携により、流れを止めずにアクティビティの開始/終了を素早く操作できます。",
+        zh: "通过 Apple Watch，你可以在不中断节奏的情况下快速开始或结束活动。"
       },
       footer: { en: "Soothe Web Docs", ko: "Soothe 웹 문서", ja: "Soothe Web ドキュメント", zh: "Soothe 网页文档" }
     },
@@ -75,6 +158,52 @@
       },
       "nav.home": { en: "Home", ko: "메인 페이지", ja: "ホーム", zh: "主页" },
       "nav.privacy": { en: "Privacy Policy", ko: "개인정보처리방침", ja: "プライバシーポリシー", zh: "隐私政策" },
+      "guide.title": { en: "Before you contact us", ko: "문의 전 빠른 확인", ja: "お問い合わせ前の確認", zh: "联系前快速检查" },
+      "guide.lead": {
+        en: "A quick 3-step check helps us solve your issue much faster.",
+        ko: "간단한 3단계 확인만으로 문제 해결 속도를 크게 높일 수 있습니다.",
+        ja: "3ステップの事前確認で、問題解決をよりスムーズに進められます。",
+        zh: "先做这 3 步小检查，我们可以更快帮你解决问题。"
+      },
+      "guide.step1.index": { en: "Step 1", ko: "1단계", ja: "ステップ 1", zh: "步骤 1" },
+      "guide.step1.title": {
+        en: "Confirm app and device version",
+        ko: "앱/기기 버전 확인",
+        ja: "アプリ・端末バージョンを確認",
+        zh: "确认应用与设备版本"
+      },
+      "guide.step1.body": {
+        en: "Please check your app version, device model, and iOS version first.",
+        ko: "앱 버전, 기기 모델, iOS 버전을 먼저 확인해 주세요.",
+        ja: "アプリバージョン、端末モデル、iOS バージョンを先にご確認ください。",
+        zh: "请先确认应用版本、设备型号与 iOS 版本。"
+      },
+      "guide.step2.index": { en: "Step 2", ko: "2단계", ja: "ステップ 2", zh: "步骤 2" },
+      "guide.step2.title": {
+        en: "Capture what happened",
+        ko: "상황 캡처하기",
+        ja: "発生状況を記録",
+        zh: "记录问题现场"
+      },
+      "guide.step2.body": {
+        en: "Take one screenshot and write short reproduction steps with time information.",
+        ko: "스크린샷 1장과 간단한 재현 단계, 발생 시각을 함께 적어 주세요.",
+        ja: "スクリーンショット1枚と、簡単な再現手順・発生時刻をご記載ください。",
+        zh: "请附 1 张截图，并写明简短复现步骤与发生时间。"
+      },
+      "guide.step3.index": { en: "Step 3", ko: "3단계", ja: "ステップ 3", zh: "步骤 3" },
+      "guide.step3.title": {
+        en: "Send a focused message",
+        ko: "핵심 정보로 문의 보내기",
+        ja: "要点を絞って送信",
+        zh: "发送关键信息"
+      },
+      "guide.step3.body": {
+        en: "Include only key facts and expected result so we can respond quickly.",
+        ko: "핵심 사실과 기대 결과를 간단히 적어주시면 더 빠르게 답변드릴 수 있어요.",
+        ja: "要点と期待する結果を簡潔に記載いただくと、より迅速に対応できます。",
+        zh: "请简要说明关键事实与期望结果，我们会更快回复。"
+      },
       "include.title": { en: "Include in your message", ko: "문의 시 포함 정보", ja: "お問い合わせ時に含める情報", zh: "反馈时请提供" },
       "include.item1": { en: "App version", ko: "앱 버전", ja: "アプリバージョン", zh: "应用版本" },
       "include.item2": { en: "Device model / iOS version", ko: "기기 모델 / iOS 버전", ja: "端末モデル / iOS バージョン", zh: "设备型号 / iOS 版本" },
