@@ -33,6 +33,54 @@
         ja: "Soothe は計画と実行を比較し、次の行動をシンプルに決められるようにサポートします。",
         zh: "Soothe 帮助你对比计划与实际执行，让下一步行动更简单明确。"
       },
+      "lifestyle.title": {
+        en: "A lifestyle app for distracted modern life",
+        ko: "집중이 흐려진 현대인을 위한 라이프스타일 앱",
+        ja: "注意が散りやすい現代生活のためのライフスタイルアプリ",
+        zh: "为注意力易分散的现代生活打造的方式改善应用"
+      },
+      "lifestyle.lead": {
+        en: "Built for people whose focus gets fragmented by nonstop media, short-form feeds, and constant notifications.",
+        ko: "끊임없는 미디어, 짧은 피드, 알림 속에서 집중이 분산되는 사람들을 위해 설계했습니다.",
+        ja: "絶えないメディア、短いフィード、通知で集中が分断される人のために設計しました。",
+        zh: "专为被媒体流、短内容和频繁通知打散注意力的人设计。"
+      },
+      "lifestyle.left.title": {
+        en: "Noise around you",
+        ko: "주변의 정보 소음",
+        ja: "周囲の情報ノイズ",
+        zh: "环境信息噪音"
+      },
+      "lifestyle.left.body": {
+        en: "Media streams, social feeds, and context switching split your attention all day.",
+        ko: "미디어 스트림, SNS 피드, 잦은 전환이 하루 종일 주의를 분산시킵니다.",
+        ja: "メディア、SNSフィード、頻繁な切り替えが一日中注意を分散させます。",
+        zh: "媒体流、社交信息流与频繁切换让注意力持续被打断。"
+      },
+      "lifestyle.center.title": {
+        en: "Soothe rhythm loop",
+        ko: "Soothe 리듬 루프",
+        ja: "Soothe リズムループ",
+        zh: "Soothe 节奏循环"
+      },
+      "lifestyle.center.body": {
+        en: "Plan simple blocks, track real actions, and adjust with evidence-based insights.",
+        ko: "간단히 계획하고 실제 행동을 기록한 뒤, 근거 기반 인사이트로 조정합니다.",
+        ja: "シンプルに計画し実行を記録して、根拠に基づくインサイトで調整します。",
+        zh: "先做简单计划，再记录真实执行，并用有依据的洞察持续调整。"
+      },
+      "lifestyle.right.title": {
+        en: "Balanced everyday flow",
+        ko: "균형 잡힌 일상 흐름",
+        ja: "バランスの取れた日常フロー",
+        zh: "更平衡的日常节奏"
+      },
+      "lifestyle.right.body": {
+        en: "Clearer priorities, calmer execution, and a routine you can sustain.",
+        ko: "우선순위는 더 선명해지고, 실행은 더 차분해지며, 루틴은 더 오래 지속됩니다.",
+        ja: "優先順位が明確になり、実行は落ち着き、続けられる習慣になります。",
+        zh: "优先级更清晰，执行更从容，习惯也更容易长期坚持。"
+      },
       "card.support.title": { en: "Support", ko: "지원 페이지", ja: "サポート", zh: "支持" },
       "card.support.body": {
         en: "Get troubleshooting steps, contact details, and quick answers.",

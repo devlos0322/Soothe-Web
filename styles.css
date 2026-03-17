@@ -216,6 +216,139 @@ h1 {
   background: linear-gradient(164deg, rgba(255, 255, 255, 0.95), rgba(243, 249, 247, 0.84));
 }
 
+.lifestyle {
+  background: linear-gradient(162deg, rgba(255, 255, 255, 0.96), rgba(248, 243, 236, 0.86));
+}
+
+.diagram {
+  margin-top: 0.9rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  gap: 0.55rem;
+  align-items: stretch;
+}
+
+.diagram-card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.84rem;
+}
+
+.diagram-card.emphasis {
+  border-color: rgba(75, 138, 127, 0.34);
+  box-shadow: 0 8px 20px rgba(75, 138, 127, 0.14);
+}
+
+.diagram-card h3 {
+  margin: 0.35rem 0 0;
+  font-size: 0.96rem;
+}
+
+.diagram-card p {
+  margin: 0.34rem 0 0;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.diagram-arrow {
+  display: grid;
+  place-items: center;
+  color: var(--mint);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.flat-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.flat-icon.media {
+  background: #ffe8d6;
+}
+
+.flat-icon.media::before,
+.flat-icon.media::after {
+  content: "";
+  position: absolute;
+  border-radius: 6px;
+  background: #e58f7c;
+}
+
+.flat-icon.media::before {
+  width: 10px;
+  height: 10px;
+  left: 6px;
+  top: 6px;
+}
+
+.flat-icon.media::after {
+  width: 14px;
+  height: 14px;
+  right: 6px;
+  bottom: 6px;
+  background: #86a9df;
+}
+
+.flat-icon.soothe {
+  background: #dff2ee;
+}
+
+.flat-icon.soothe::before,
+.flat-icon.soothe::after {
+  content: "";
+  position: absolute;
+  border-radius: 999px;
+}
+
+.flat-icon.soothe::before {
+  width: 18px;
+  height: 18px;
+  left: 8px;
+  top: 8px;
+  border: 3px solid #4b8a7f;
+}
+
+.flat-icon.soothe::after {
+  width: 6px;
+  height: 6px;
+  right: 5px;
+  top: 5px;
+  background: #e6c58b;
+}
+
+.flat-icon.balance {
+  background: #e7f0ff;
+}
+
+.flat-icon.balance::before,
+.flat-icon.balance::after {
+  content: "";
+  position: absolute;
+}
+
+.flat-icon.balance::before {
+  width: 18px;
+  height: 3px;
+  background: #6f91cb;
+  left: 8px;
+  top: 11px;
+  box-shadow: 0 7px 0 #6f91cb;
+}
+
+.flat-icon.balance::after {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #58bf9f;
+  left: 13px;
+  bottom: 6px;
+}
+
 .showcase-grid {
   margin-top: 0.95rem;
   display: grid;
@@ -235,7 +368,7 @@ h1 {
   width: 100%;
   display: block;
   aspect-ratio: 9 / 19;
-  object-fit: cover;
+  object-fit: contain;
   background: linear-gradient(160deg, rgba(75, 138, 127, 0.15), rgba(230, 197, 139, 0.18));
 }
 
@@ -275,5 +408,16 @@ h1 {
 
   .split {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 860px) {
+  .diagram {
+    grid-template-columns: 1fr;
+  }
+
+  .diagram-arrow {
+    transform: rotate(90deg);
+    justify-self: center;
   }
 }
