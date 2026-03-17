@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="2280" viewBox="0 0 1080 2280" fill="none">
+  <rect width="1080" height="2280" fill="#F8F7F5"/>
+  <rect width="1080" height="280" fill="#79AFA6"/>
+  <text x="540" y="165" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="64" fill="#F3FBFA" font-weight="700">Patterns</text>
+  <rect x="36" y="332" width="1008" height="140" rx="34" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <rect x="168" y="366" width="400" height="72" rx="36" fill="#E8EDF8"/>
+  <text x="368" y="415" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="48" fill="#6A8ECC" font-weight="700">3/11/2026 - 3/17/2026</text>
+  <rect x="36" y="510" width="1008" height="88" rx="44" fill="#ECEEF1"/>
+  <circle cx="540" cy="554" r="40" fill="#FFFFFF"/>
+  <text x="540" y="571" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="46" fill="#1D2A30" font-weight="700">Day · Week · Month</text>
+  <rect x="36" y="634" width="1008" height="98" rx="20" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="92" y="696" font-family="Noto Sans, sans-serif" font-size="44" fill="#7B838B">Monthly range is available in Pro.</text>
+  <rect x="36" y="768" width="1008" height="430" rx="34" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="72" y="844" font-family="Noto Sans, sans-serif" font-size="56" fill="#646F79" font-weight="700">Total execution</text>
+  <text x="72" y="926" font-family="Noto Sans, sans-serif" font-size="72" fill="#222F37" font-weight="800">3h 17m</text>
+  <rect x="72" y="966" width="936" height="200" rx="22" fill="#F6F8FB"/>
+  <polyline points="88,1130 240,1130 392,1088 544,1130 696,1130 848,1130 996,1000" fill="none" stroke="#7DA1DE" stroke-width="8"/>
+  <rect x="36" y="1232" width="1008" height="470" rx="34" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="72" y="1308" font-family="Noto Sans, sans-serif" font-size="56" fill="#646F79" font-weight="700">Task share</text>
+  <circle cx="256" cy="1484" r="176" stroke="#88CBEA" stroke-width="46" fill="none"/>
+  <text x="256" y="1498" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="60" fill="#2A363E" font-weight="800">3h 17m</text>
+  <text x="490" y="1400" font-family="Noto Sans, sans-serif" font-size="48" fill="#2A363E" font-weight="700">Focus 36%</text>
+  <text x="490" y="1470" font-family="Noto Sans, sans-serif" font-size="48" fill="#2A363E" font-weight="700">Sleep 33%</text>
+  <text x="490" y="1540" font-family="Noto Sans, sans-serif" font-size="48" fill="#2A363E" font-weight="700">Exercise 20%</text>
+  <rect x="36" y="1736" width="1008" height="370" rx="34" fill="#FFF7F1" stroke="#EED8CA"/>
+  <text x="72" y="1810" font-family="Noto Sans, sans-serif" font-size="50" fill="#B06E48" font-weight="700">Plan reliability 20</text>
+  <text x="72" y="1888" font-family="Noto Sans, sans-serif" font-size="52" fill="#2A353D" font-weight="700">Executed 0/10, with 0 late starts</text>
+  <rect x="72" y="1970" width="560" height="76" rx="38" fill="#F8E5D7"/>
+  <text x="352" y="2022" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="42" fill="#D18353" font-weight="700">Unlock evidence details with Pro</text>
+  <rect x="80" y="2090" width="920" height="150" rx="75" fill="#FFFFFF" stroke="#DFE6EC"/>
+  <text x="540" y="2184" text-anchor="middle" font-family="Noto Sans, sans-serif" font-size="42" fill="#89A4CC" font-weight="700">Today · Timeline · Plans · Patterns · Settings</text>
+</svg>
